@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.background-photo {
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    background-image: url('../Assignment Code/Nights-Out-Lights-Out.jpeg'); 
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#download-resume a:visited,
+#download-resume a:visited:focus,
+#download-resume a:visited:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    color: #ffffff;
+    padding: 10px;
+    display: flex; /* Use flexbox to align logo and navigation items */
+    align-items: right; /* Vertically center the logo and navigation items */
+    justify-content: space-between; /* Push logo to the left and navigation to the right */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: large;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+#logo {
+    max-width: 150px; 
+    margin-right: 10px; 
+
+}
+
+#about-me-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures it takes at least the full viewport height */
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: -150px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 800px; /* Adjust the max width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.left-content {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-me-image {
+    flex: 1;
+    border: 2px solid #000; /* Adjust the border color and width as needed */
+    border-radius: 50%; /* Makes the border circular */
+    width: 165px; /* Set the width to control the circle's size */
+    height: 250px; /* Set the height to match the width for a perfect circle */
+    overflow: hidden; /* Hides the image overflowing the circular frame */
+}
+
+#my-image img {
+    max-width: 250px; /* Adjust the width as needed */
+    max-height: 250px; /* Adjust the height as needed */
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}

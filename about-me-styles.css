@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.background-photo {
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    background-image: url('../Assignment Code/Nights-Out-Lights-Out.jpeg'); 
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+nav {
+    color: #ffffff;
+    padding: 10px;
+    display: flex; /* Use flexbox to align logo and navigation items */
+    align-items: right; /* Vertically center the logo and navigation items */
+    justify-content: space-between; /* Push logo to the left and navigation to the right */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: large;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+#logo {
+    max-width: 150px; 
+    margin-right: 10px; 
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#about-me-section {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center the text horizontally */
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#work-experience-section {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center the text horizontally */
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#skills-section {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center the text horizontally */
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#info-table td {
+    padding-left: 40px;
+}
+
+#info-table tr:first-child td {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#work-table td {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(174, 174, 174, 0.7);
+}
+
+#work-table tr:first-child td {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#rogers {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#lcl {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#homestars {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#practitioner {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#developer {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#data-engineer {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#coding-lang-table td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#tools-table td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#coding-lang-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#certs-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
